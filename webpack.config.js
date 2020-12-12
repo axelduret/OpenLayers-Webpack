@@ -6,4 +6,8 @@ module.exports = {
     path: __dirname,
     filename: './dist/js/bundle.js'
   },
+  watch: true,
+  performance: {
+    hints: false
+  }
 };
