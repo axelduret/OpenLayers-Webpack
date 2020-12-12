@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Example using OpenLayers with Webpack",
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --config webpack.config.js --mode production",
+    "sass:watch": "sass --watch ./src/scss:./dist/css"
   },
   "devDependencies": {
+    "sass": "^1.30.0",
     "webpack": "^4.12.1",
     "webpack-command": "^0.3.0"
   },
